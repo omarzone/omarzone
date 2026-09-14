@@ -101,20 +101,15 @@ const omar = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=omarzone&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" alt="Omar's GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarzone&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0D1117&title_color=36BCF7&hide=papyrus,cmake,blade,scss,css,html" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/overview.svg" alt="GitHub overview, languages and contribution calendar" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=omarzone&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/achievements.svg" alt="Achievements and coding habits" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omarzone&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&area_color=36BCF7" width="100%" alt="Activity graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=omarzone&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/activity.svg" alt="Recent activity" width="100%" />
 </div>
 
 > 💡 Most of my recent work (4,000+ contributions in the last year) lives in **private repositories** for client and personal products. The public repos below are a sample of my journey.
@@ -123,44 +118,15 @@ const omar = {
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/omarzone/music-player-flutter-UI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=music-player-flutter-UI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/omarzone/DM_AssistantAI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=DM_AssistantAI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/omarzone/aws-cloud-foundations">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=aws-cloud-foundations&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/omarzone/ShortyUrl">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=ShortyUrl&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/omarzone/nowtesJunit">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=nowtesJunit&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/omarzone/SimuladorSO">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarzone&repo=SimuladorSO&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7" />
-      </a>
-    </td>
-  </tr>
-</table>
+| Project | Stack | Description | |
+|---|---|---|---|
+| 🎵 [**music-player-flutter-UI**](https://github.com/omarzone/music-player-flutter-UI) | ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white) | Music player UI built with Flutter, custom widgets and animations | ![stars](https://img.shields.io/github/stars/omarzone/music-player-flutter-UI?style=flat&color=36BCF7) |
+| 🐉 [**DM_AssistantAI**](https://github.com/omarzone/DM_AssistantAI) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | Dungeon Master assistant powered by AI | ![stars](https://img.shields.io/github/stars/omarzone/DM_AssistantAI?style=flat&color=36BCF7) |
+| ☁️ [**aws-cloud-foundations**](https://github.com/omarzone/aws-cloud-foundations) | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonwebservices&logoColor=white) | Hands-on labs and notes from AWS Cloud Foundations | ![stars](https://img.shields.io/github/stars/omarzone/aws-cloud-foundations?style=flat&color=36BCF7) |
+| 🔗 [**ShortyUrl**](https://github.com/omarzone/ShortyUrl) | ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white) | URL shortener | ![stars](https://img.shields.io/github/stars/omarzone/ShortyUrl?style=flat&color=36BCF7) |
+| 🧪 [**nowtesJunit**](https://github.com/omarzone/nowtesJunit) | ![Java](https://img.shields.io/badge/-Java-ED8B00?logo=openjdk&logoColor=white) | JUnit 4 testing workshop on the Nowtes app | ![stars](https://img.shields.io/github/stars/omarzone/nowtesJunit?style=flat&color=36BCF7) |
+| 🖥️ [**SimuladorSO**](https://github.com/omarzone/SimuladorSO) | ![Java](https://img.shields.io/badge/-Java-ED8B00?logo=openjdk&logoColor=white) | Operating system scheduler simulator | ![stars](https://img.shields.io/github/stars/omarzone/SimuladorSO?style=flat&color=36BCF7) |
+| 🔁 [**AFD_Java**](https://github.com/omarzone/AFD_Java) | ![Java](https://img.shields.io/badge/-Java-ED8B00?logo=openjdk&logoColor=white) | Deterministic finite automaton implementation | ![stars](https://img.shields.io/github/stars/omarzone/AFD_Java?style=flat&color=36BCF7) |
 
 <details>
 <summary><b>📚 More public work (click to expand)</b></summary>
@@ -168,7 +134,6 @@ const omar = {
 
 | Project | Stack | What it is |
 |---|---|---|
-| [AFD_Java](https://github.com/omarzone/AFD_Java) | Java | Deterministic finite automaton implementation |
 | [mvc-voting-system](https://github.com/omarzone/mvc-voting-system) | Java | Voting system built on the MVC pattern |
 | [kwic-algorithm-layered](https://github.com/omarzone/kwic-algorithm-layered) | Java | KWIC algorithm with a layered architecture |
 | [GoMail](https://github.com/omarzone/GoMail) | Java | Simple email client (send / receive) |
