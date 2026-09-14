@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2C5364"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#0F2027"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7DF9FF" stop-opacity="0.10"/>
+    </linearGradient>
+    <style>
+      .w { animation: drift 16s linear infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+      .txt { font: 500 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #CFE9F5; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="url(#bg)"/>
+  <g class="w">
+    <path fill="url(#wave)" d="M0 30 C 150 0, 300 60, 450 30 S 750 0, 900 30 S 1200 60, 1350 30 S 1650 0, 1800 30 V0 H0 Z"/>
+  </g>
+  <text class="txt" x="600" y="82" text-anchor="middle">THANKS FOR STOPPING BY  ·  @omarzone</text>
+</svg>

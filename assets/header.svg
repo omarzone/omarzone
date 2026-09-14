@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Omar Cauich - Cross-Platform Mobile and Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7DF9FF" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#36BCF7" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 58px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+      .sub   { font: 500 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #CFE9F5; letter-spacing: 1px; }
+      .fade  { opacity: 0; animation: fadeIn 1.2s ease-out forwards; }
+      .fade2 { opacity: 0; animation: fadeIn 1.2s ease-out 0.4s forwards; }
+      @keyframes fadeIn { to { opacity: 1; } }
+      .w1 { animation: drift 14s linear infinite; }
+      .w2 { animation: drift 22s linear infinite reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <g class="w2">
+    <path fill="url(#wave2)" d="M0 170 C 150 130, 300 210, 450 170 S 750 130, 900 170 S 1200 210, 1350 170 S 1650 130, 1800 170 V220 H0 Z"/>
+  </g>
+  <g class="w1">
+    <path fill="url(#wave1)" d="M0 185 C 150 155, 300 215, 450 185 S 750 155, 900 185 S 1200 215, 1350 185 S 1650 155, 1800 185 V220 H0 Z"/>
+  </g>
+  <text class="title fade" x="600" y="98" text-anchor="middle">Omar Cauich</text>
+  <text class="sub fade2" x="600" y="140" text-anchor="middle">CROSS-PLATFORM MOBILE &amp; FULL-STACK DEVELOPER</text>
+</svg>

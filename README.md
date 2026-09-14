@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Omar%20Cauich&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cross-Platform%20Mobile%20%26%20Full-Stack%20Developer&descAlignY=58&descSize=20" width="100%" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/assets/header.svg" alt="Omar Cauich - Cross-Platform Mobile and Full-Stack Developer" width="100%" />
 </div>
 
 <div align="center">
@@ -101,15 +101,12 @@ const omar = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/overview.svg" alt="GitHub overview, languages and contribution calendar" width="100%" />
+  <img height="230" src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/stats.svg" alt="GitHub stats" />
+  <img height="230" src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/langs.svg" alt="Most used languages" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/achievements.svg" alt="Achievements and coding habits" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/activity.svg" alt="Recent activity" width="100%" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/calendar.svg" alt="Contribution calendar and streaks" width="100%" />
 </div>
 
 > 💡 Most of my recent work (4,000+ contributions in the last year) lives in **private repositories** for client and personal products. The public repos below are a sample of my journey.
@@ -174,5 +171,5 @@ const omar = {
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/assets/footer.svg" alt="footer" width="100%" />
 </div>

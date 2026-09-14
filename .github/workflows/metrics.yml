@@ -6,69 +6,50 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/metrics.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Overview, languages and calendar
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate stats and language cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: omarzone
+        run: python scripts/gen_stats.py
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/stats.svg metrics/langs.svg
+          git diff --cached --quiet || git commit -m "chore: update stats cards [skip ci]"
+          git push
+
+      - name: Contribution calendar and streaks
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: omarzone
           template: classic
-          filename: metrics/overview.svg
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
+          filename: metrics/calendar.svg
+          base: ""
           config_timezone: America/Mexico_City
-          config_octicon: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_colors: github
-          plugin_languages_ignored: papyrus, cmake, blade, scss, css, html, smarty
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_indepth: yes
-
-      - name: Achievements and habits
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: omarzone
-          template: classic
-          filename: metrics/achievements.svg
-          base: ""
-          config_timezone: America/Mexico_City
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-
-      - name: Recent activity
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: omarzone
-          template: classic
-          filename: metrics/activity.svg
-          base: ""
-          config_timezone: America/Mexico_City
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 30
-          plugin_activity_filter: commit, pr, issue, release, star, fork
-          plugin_activity_visibility: public
-          plugin_calendar: yes
-          plugin_calendar_limit: 2
