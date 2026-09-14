@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-label="GitHub stats">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="256" viewBox="0 0 495 256" role="img" aria-label="GitHub stats">
 <style>
 .t{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#36BCF7}
 .l{font:400 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#c9d1d9}
@@ -6,7 +6,7 @@
 .i{font:700 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#36BCF7}
 .r{opacity:0;animation:f .5s ease-in-out forwards}@keyframes f{to{opacity:1}}
 </style>
-<rect x="0.5" y="0.5" width="494" height="227" rx="6" fill="#0D1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="494" height="255" rx="6" fill="#0D1117" stroke="#30363d"/>
 <text class="t" x="25" y="35">Omar Cauich's GitHub Stats</text>
 <g class="r" style="animation-delay:150ms">
 <text class="i" x="25" y="68">★</text>
@@ -14,28 +14,33 @@
 <text class="v" x="470" y="68" text-anchor="end">10</text>
 </g>
 <g class="r" style="animation-delay:270ms">
-<text class="i" x="25" y="96">⎇</text>
-<text class="l" x="55" y="96">Contributions (last year):</text>
-<text class="v" x="470" y="96" text-anchor="end">4.1k</text>
+<text class="i" x="25" y="96">▣</text>
+<text class="l" x="55" y="96">Repositories (public + private):</text>
+<text class="v" x="470" y="96" text-anchor="end">77</text>
 </g>
 <g class="r" style="animation-delay:390ms">
-<text class="i" x="25" y="124">✎</text>
-<text class="l" x="55" y="124">Commits (last year):</text>
-<text class="v" x="470" y="124" text-anchor="end">4.1k</text>
+<text class="i" x="25" y="124">⎇</text>
+<text class="l" x="55" y="124">Contributions (last year):</text>
+<text class="v" x="470" y="124" text-anchor="end">4.2k</text>
 </g>
 <g class="r" style="animation-delay:510ms">
-<text class="i" x="25" y="152">⇄</text>
-<text class="l" x="55" y="152">Pull requests:</text>
-<text class="v" x="470" y="152" text-anchor="end">4</text>
+<text class="i" x="25" y="152">✎</text>
+<text class="l" x="55" y="152">Commits (last year):</text>
+<text class="v" x="470" y="152" text-anchor="end">4.1k</text>
 </g>
 <g class="r" style="animation-delay:630ms">
-<text class="i" x="25" y="180">!</text>
-<text class="l" x="55" y="180">Issues:</text>
+<text class="i" x="25" y="180">⇄</text>
+<text class="l" x="55" y="180">Pull requests:</text>
 <text class="v" x="470" y="180" text-anchor="end">4</text>
 </g>
 <g class="r" style="animation-delay:750ms">
-<text class="i" x="25" y="208">🔥</text>
-<text class="l" x="55" y="208">Best streak (days):</text>
-<text class="v" x="470" y="208" text-anchor="end">24</text>
+<text class="i" x="25" y="208">!</text>
+<text class="l" x="55" y="208">Issues:</text>
+<text class="v" x="470" y="208" text-anchor="end">4</text>
+</g>
+<g class="r" style="animation-delay:870ms">
+<text class="i" x="25" y="236">🔥</text>
+<text class="l" x="55" y="236">Best streak (days):</text>
+<text class="v" x="470" y="236" text-anchor="end">24</text>
 </g>
 </svg>
