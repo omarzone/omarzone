@@ -109,10 +109,6 @@ const omar = {
   <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/calendar.svg" alt="Contribution calendar and streaks" width="100%" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/achievements.svg" alt="Achievements and coding habits" width="100%" />
-</div>
-
 > 💡 The numbers above include my **private repositories** (client and personal products), which is where most of my recent work lives. The public repos below are just a sample of the journey.
 
 ---
