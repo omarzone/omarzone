@@ -28,17 +28,17 @@ const omar = {
   mobile:    ["Flutter", "iOS", "Android", "Windows Desktop"],
   web:       ["Next.js", "React", "Astro", "Laravel", "FastAPI", "Node.js"],
   cloud:     ["AWS", "Docker", "Firebase", "MySQL", "PostgreSQL"],
-  focus:     ["AI-powered apps", "Vehicle telematics (OBD-II)", "Real-time products", "Developer tooling"],
+  focus:     ["AI-powered apps", "Real-time products", "Developer tooling"],
   funFact:   "I ship more code to private repos than to public ones 🤫",
 };
 ```
 
-- 🔭 Currently building **AI-powered products and vehicle diagnostics tools** (mobile + desktop + CLI).
+- 🔭 Currently building **AI-powered products** (mobile + desktop + CLI).
 - 📱 **Flutter** is my home turf: apps for iOS, Android and Windows from a single codebase.
 - 🌐 Full-stack when needed: **Next.js / TypeScript** on the front, **FastAPI / Laravel / Node** on the back.
 - 🤖 Fascinated by **LLM-driven products**: agents, assistants, image generation workflows.
 - 🎓 Software Engineering background: OOP, data structures, layered architectures, automata, OS simulation.
-- 💬 Ask me about **Flutter, Dart, Next.js, Python CLIs, Laravel APIs** or how to make an OBD-II adapter talk.
+- 💬 Ask me about **Flutter, Dart, Next.js, Python CLIs, Laravel APIs**.
 
 ---
 
