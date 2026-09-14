@@ -109,7 +109,11 @@ const omar = {
   <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/calendar.svg" alt="Contribution calendar and streaks" width="100%" />
 </div>
 
-> 💡 Most of my recent work (4,000+ contributions in the last year) lives in **private repositories** for client and personal products. The public repos below are a sample of my journey.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/omarzone/omarzone/main/metrics/achievements.svg" alt="Achievements and coding habits" width="100%" />
+</div>
+
+> 💡 The numbers above include my **private repositories** (client and personal products), which is where most of my recent work lives. The public repos below are just a sample of the journey.
 
 ---
 

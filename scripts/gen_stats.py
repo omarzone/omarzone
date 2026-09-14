@@ -65,7 +65,7 @@ def fetch() -> dict:
     repos_url = f"https://api.github.com/users/{USER}/repos?type=owner"
     try:
         if api("https://api.github.com/user").get("login", "").lower() == USER.lower():
-            repos_url = "https://api.github.com/user/repos?affiliation=owner&visibility=all"
+            repos_url = "https://api.github.com/user/repos?affiliation=owner,organization_member&visibility=all"
     except Exception:  # noqa: BLE001  (GITHUB_TOKEN has no /user endpoint)
         pass
     repos = [r for r in paginate(repos_url) if not r["fork"]]
@@ -116,6 +116,7 @@ def fetch() -> dict:
         "name": user.get("name") or USER,
         "followers": user["followers"],
         "public_repos": user["public_repos"],
+        "repos": len(repos),
         "stars": stars,
         "commits": cc["totalCommitContributions"] + cc["restrictedContributionsCount"],
         "prs": cc["totalPullRequestContributions"],
@@ -135,6 +136,7 @@ def fmt(n: int) -> str:
 def stats_card(s: dict) -> str:
     rows = [
         ("★", "Total stars earned", s["stars"]),
+        ("▣", "Repositories (public + private)", s["repos"]),
         ("⎇", "Contributions (last year)", s["contributions"]),
         ("✎", "Commits (last year)", s["commits"]),
         ("⇄", "Pull requests", s["prs"]),
