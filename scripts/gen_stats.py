@@ -60,8 +60,16 @@ def graphql(query: str, variables: dict) -> dict:
 
 def fetch() -> dict:
     user = api(f"https://api.github.com/users/{USER}")
-    repos = [r for r in paginate(f"https://api.github.com/users/{USER}/repos?type=owner") if not r["fork"]]
-    stars = sum(r["stargazerCount"] if "stargazerCount" in r else r["stargazers_count"] for r in repos)
+    # With a personal token (METRICS_TOKEN secret) owned by USER, private repos are included in the
+    # aggregated language percentages. Repo names are never written to the cards.
+    repos_url = f"https://api.github.com/users/{USER}/repos?type=owner"
+    try:
+        if api("https://api.github.com/user").get("login", "").lower() == USER.lower():
+            repos_url = "https://api.github.com/user/repos?affiliation=owner&visibility=all"
+    except Exception:  # noqa: BLE001  (GITHUB_TOKEN has no /user endpoint)
+        pass
+    repos = [r for r in paginate(repos_url) if not r["fork"]]
+    stars = sum(r["stargazers_count"] for r in repos)
 
     lang_bytes: dict[str, int] = defaultdict(int)
     for r in repos:
