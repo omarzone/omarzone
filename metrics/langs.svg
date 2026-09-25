@@ -9,33 +9,33 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="276.4" height="8" fill="#3178c6"/>
-<rect x="301.4" y="55" width="94.8" height="8" fill="#f1e05a"/>
-<rect x="396.2" y="55" width="30.6" height="8" fill="#00B4AB"/>
-<rect x="426.8" y="55" width="14.9" height="8" fill="#00A2FF"/>
-<rect x="441.7" y="55" width="13.6" height="8" fill="#4F5D95"/>
-<rect x="455.3" y="55" width="7.4" height="8" fill="#3572A5"/>
-<rect x="462.7" y="55" width="5.8" height="8" fill="#b07219"/>
+<rect x="25.0" y="55" width="277.4" height="8" fill="#3178c6"/>
+<rect x="302.4" y="55" width="94.5" height="8" fill="#f1e05a"/>
+<rect x="396.9" y="55" width="30.3" height="8" fill="#00B4AB"/>
+<rect x="427.2" y="55" width="14.8" height="8" fill="#00A2FF"/>
+<rect x="442.0" y="55" width="13.4" height="8" fill="#4F5D95"/>
+<rect x="455.5" y="55" width="7.3" height="8" fill="#3572A5"/>
+<rect x="462.8" y="55" width="5.7" height="8" fill="#b07219"/>
 <rect x="468.5" y="55" width="1.5" height="8" fill="#ff5a03"/>
 </g>
 <circle cx="30" cy="86" r="5" fill="#3178c6"/>
 <text class="l" x="43" y="90">TypeScript</text>
-<text class="p" x="131" y="90">62.1%</text>
+<text class="p" x="131" y="90">62.3%</text>
 <circle cx="265" cy="86" r="5" fill="#f1e05a"/>
 <text class="l" x="278" y="90">JavaScript</text>
-<text class="p" x="366" y="90">21.3%</text>
+<text class="p" x="366" y="90">21.2%</text>
 <circle cx="30" cy="112" r="5" fill="#00B4AB"/>
 <text class="l" x="43" y="116">Dart</text>
-<text class="p" x="83" y="116">6.9%</text>
+<text class="p" x="83" y="116">6.8%</text>
 <circle cx="265" cy="112" r="5" fill="#00A2FF"/>
 <text class="l" x="278" y="116">Luau</text>
-<text class="p" x="318" y="116">3.4%</text>
+<text class="p" x="318" y="116">3.3%</text>
 <circle cx="30" cy="138" r="5" fill="#4F5D95"/>
 <text class="l" x="43" y="142">PHP</text>
 <text class="p" x="75" y="142">3.0%</text>
 <circle cx="265" cy="138" r="5" fill="#3572A5"/>
 <text class="l" x="278" y="142">Python</text>
-<text class="p" x="334" y="142">1.7%</text>
+<text class="p" x="334" y="142">1.6%</text>
 <circle cx="30" cy="164" r="5" fill="#b07219"/>
 <text class="l" x="43" y="168">Java</text>
 <text class="p" x="83" y="168">1.3%</text>
