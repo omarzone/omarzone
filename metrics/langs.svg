@@ -9,33 +9,33 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="283.1" height="8" fill="#3178c6"/>
-<rect x="308.1" y="55" width="92.1" height="8" fill="#f1e05a"/>
-<rect x="400.3" y="55" width="28.1" height="8" fill="#00B4AB"/>
-<rect x="428.4" y="55" width="15.1" height="8" fill="#00A2FF"/>
-<rect x="443.4" y="55" width="12.4" height="8" fill="#4F5D95"/>
-<rect x="455.9" y="55" width="7.4" height="8" fill="#3572A5"/>
-<rect x="463.3" y="55" width="5.3" height="8" fill="#b07219"/>
+<rect x="25.0" y="55" width="287.3" height="8" fill="#3178c6"/>
+<rect x="312.3" y="55" width="89.7" height="8" fill="#f1e05a"/>
+<rect x="402.0" y="55" width="27.4" height="8" fill="#00B4AB"/>
+<rect x="429.4" y="55" width="14.7" height="8" fill="#00A2FF"/>
+<rect x="444.1" y="55" width="12.1" height="8" fill="#4F5D95"/>
+<rect x="456.2" y="55" width="7.3" height="8" fill="#3572A5"/>
+<rect x="463.5" y="55" width="5.2" height="8" fill="#b07219"/>
 <rect x="468.6" y="55" width="1.4" height="8" fill="#ff5a03"/>
 </g>
 <circle cx="30" cy="86" r="5" fill="#3178c6"/>
 <text class="l" x="43" y="90">TypeScript</text>
-<text class="p" x="131" y="90">63.6%</text>
+<text class="p" x="131" y="90">64.6%</text>
 <circle cx="265" cy="86" r="5" fill="#f1e05a"/>
 <text class="l" x="278" y="90">JavaScript</text>
-<text class="p" x="366" y="90">20.7%</text>
+<text class="p" x="366" y="90">20.2%</text>
 <circle cx="30" cy="112" r="5" fill="#00B4AB"/>
 <text class="l" x="43" y="116">Dart</text>
-<text class="p" x="83" y="116">6.3%</text>
+<text class="p" x="83" y="116">6.2%</text>
 <circle cx="265" cy="112" r="5" fill="#00A2FF"/>
 <text class="l" x="278" y="116">Luau</text>
-<text class="p" x="318" y="116">3.4%</text>
+<text class="p" x="318" y="116">3.3%</text>
 <circle cx="30" cy="138" r="5" fill="#4F5D95"/>
 <text class="l" x="43" y="142">PHP</text>
-<text class="p" x="75" y="142">2.8%</text>
+<text class="p" x="75" y="142">2.7%</text>
 <circle cx="265" cy="138" r="5" fill="#3572A5"/>
 <text class="l" x="278" y="142">Python</text>
-<text class="p" x="334" y="142">1.7%</text>
+<text class="p" x="334" y="142">1.6%</text>
 <circle cx="30" cy="164" r="5" fill="#b07219"/>
 <text class="l" x="43" y="168">Java</text>
 <text class="p" x="83" y="168">1.2%</text>
