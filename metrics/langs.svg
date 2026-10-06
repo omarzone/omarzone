@@ -9,12 +9,12 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="291.8" height="8" fill="#3178c6"/>
-<rect x="316.8" y="55" width="88.5" height="8" fill="#f1e05a"/>
-<rect x="405.3" y="55" width="25.7" height="8" fill="#00B4AB"/>
-<rect x="431.0" y="55" width="13.8" height="8" fill="#00A2FF"/>
-<rect x="444.7" y="55" width="11.4" height="8" fill="#4F5D95"/>
-<rect x="456.1" y="55" width="6.8" height="8" fill="#3572A5"/>
+<rect x="25.0" y="55" width="291.9" height="8" fill="#3178c6"/>
+<rect x="316.9" y="55" width="88.8" height="8" fill="#f1e05a"/>
+<rect x="405.7" y="55" width="25.5" height="8" fill="#00B4AB"/>
+<rect x="431.2" y="55" width="13.7" height="8" fill="#00A2FF"/>
+<rect x="444.9" y="55" width="11.3" height="8" fill="#4F5D95"/>
+<rect x="456.2" y="55" width="6.8" height="8" fill="#3572A5"/>
 <rect x="463.0" y="55" width="4.8" height="8" fill="#b07219"/>
 <rect x="467.8" y="55" width="2.2" height="8" fill="#ff5a03"/>
 </g>
@@ -26,13 +26,13 @@
 <text class="p" x="366" y="90">19.9%</text>
 <circle cx="30" cy="112" r="5" fill="#00B4AB"/>
 <text class="l" x="43" y="116">Dart</text>
-<text class="p" x="83" y="116">5.8%</text>
+<text class="p" x="83" y="116">5.7%</text>
 <circle cx="265" cy="112" r="5" fill="#00A2FF"/>
 <text class="l" x="278" y="116">Luau</text>
 <text class="p" x="318" y="116">3.1%</text>
 <circle cx="30" cy="138" r="5" fill="#4F5D95"/>
 <text class="l" x="43" y="142">PHP</text>
-<text class="p" x="75" y="142">2.6%</text>
+<text class="p" x="75" y="142">2.5%</text>
 <circle cx="265" cy="138" r="5" fill="#3572A5"/>
 <text class="l" x="278" y="142">Python</text>
 <text class="p" x="334" y="142">1.5%</text>
