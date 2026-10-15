@@ -9,8 +9,8 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="286.3" height="8" fill="#3178c6"/>
-<rect x="311.3" y="55" width="102.1" height="8" fill="#f1e05a"/>
+<rect x="25.0" y="55" width="286.4" height="8" fill="#3178c6"/>
+<rect x="311.4" y="55" width="102.1" height="8" fill="#f1e05a"/>
 <rect x="413.5" y="55" width="22.4" height="8" fill="#00B4AB"/>
 <rect x="435.9" y="55" width="12.0" height="8" fill="#00A2FF"/>
 <rect x="447.9" y="55" width="9.9" height="8" fill="#4F5D95"/>
@@ -20,10 +20,10 @@
 </g>
 <circle cx="30" cy="86" r="5" fill="#3178c6"/>
 <text class="l" x="43" y="90">TypeScript</text>
-<text class="p" x="131" y="90">64.3%</text>
+<text class="p" x="131" y="90">64.4%</text>
 <circle cx="265" cy="86" r="5" fill="#f1e05a"/>
 <text class="l" x="278" y="90">JavaScript</text>
-<text class="p" x="366" y="90">23.0%</text>
+<text class="p" x="366" y="90">22.9%</text>
 <circle cx="30" cy="112" r="5" fill="#00B4AB"/>
 <text class="l" x="43" y="116">Dart</text>
 <text class="p" x="83" y="116">5.0%</text>
