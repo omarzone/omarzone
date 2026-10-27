@@ -9,10 +9,10 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="288.1" height="8" fill="#3178c6"/>
-<rect x="313.1" y="55" width="106.0" height="8" fill="#f1e05a"/>
+<rect x="25.0" y="55" width="288.2" height="8" fill="#3178c6"/>
+<rect x="313.2" y="55" width="106.0" height="8" fill="#f1e05a"/>
 <rect x="419.2" y="55" width="20.0" height="8" fill="#00B4AB"/>
-<rect x="439.1" y="55" width="10.7" height="8" fill="#00A2FF"/>
+<rect x="439.2" y="55" width="10.7" height="8" fill="#00A2FF"/>
 <rect x="449.8" y="55" width="8.8" height="8" fill="#4F5D95"/>
 <rect x="458.7" y="55" width="5.4" height="8" fill="#3572A5"/>
 <rect x="464.0" y="55" width="3.8" height="8" fill="#b07219"/>
@@ -20,7 +20,7 @@
 </g>
 <circle cx="30" cy="86" r="5" fill="#3178c6"/>
 <text class="l" x="43" y="90">TypeScript</text>
-<text class="p" x="131" y="90">64.7%</text>
+<text class="p" x="131" y="90">64.8%</text>
 <circle cx="265" cy="86" r="5" fill="#f1e05a"/>
 <text class="l" x="278" y="90">JavaScript</text>
 <text class="p" x="366" y="90">23.8%</text>
