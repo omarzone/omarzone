@@ -9,13 +9,13 @@
 <text class="t" x="25" y="35">Most Used Languages</text>
 <mask id="m"><rect x="25" y="55" width="445" height="8" rx="4" fill="#fff"/></mask>
 <g mask="url(#m)" class="b">
-<rect x="25.0" y="55" width="304.9" height="8" fill="#3178c6"/>
-<rect x="329.9" y="55" width="89.4" height="8" fill="#f1e05a"/>
-<rect x="419.3" y="55" width="16.2" height="8" fill="#3572A5"/>
+<rect x="25.0" y="55" width="304.7" height="8" fill="#3178c6"/>
+<rect x="329.7" y="55" width="89.6" height="8" fill="#f1e05a"/>
+<rect x="419.4" y="55" width="16.2" height="8" fill="#3572A5"/>
 <rect x="435.6" y="55" width="15.1" height="8" fill="#00B4AB"/>
 <rect x="450.7" y="55" width="8.1" height="8" fill="#00A2FF"/>
 <rect x="458.8" y="55" width="6.7" height="8" fill="#4F5D95"/>
-<rect x="465.5" y="55" width="2.9" height="8" fill="#b07219"/>
+<rect x="465.5" y="55" width="2.8" height="8" fill="#b07219"/>
 <rect x="468.3" y="55" width="1.7" height="8" fill="#ff5a03"/>
 </g>
 <circle cx="30" cy="86" r="5" fill="#3178c6"/>
